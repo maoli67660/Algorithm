@@ -39,7 +39,7 @@ https://leetcode-cn.com/leetbook/read/illustrate-lcof/xz2hh7/
 * --剑指 Offer 22. 链表中倒数第 k 个节点
 * --剑指 Offer 24. 反转链表
 * --剑指 Offer 25. 合并两个排序的链表
-* @剑指 Offer 26. 树的子结构
+* --剑指 Offer 26. 树的子结构
 * --剑指 Offer 27. 二叉树的镜像
 * --剑指 Offer 28. 对称的二叉树
 * @剑指 Offer 29. 顺时针打印矩阵
