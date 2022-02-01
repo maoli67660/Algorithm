@@ -16,7 +16,7 @@
 * @11、基本计算器（ LeetCode 224 ） https://leetcode-cn.com/problems/basic-calculator/
 * --12、最小栈（ LeetCode 155 ）
 * --13、验证栈序列（ LeetCode 946 ）
-* @14、每日温度（ LeetCode 739 ）
+* --14、每日温度（ LeetCode 739 ） 单调栈， 参考最小栈
 * @15、接雨水（ LeetCode 42 ）
 * --16、队列的基础知识
 * --17、用栈实现队列 （ LeetCode 232 ）
@@ -25,7 +25,7 @@
 * --20、移除链表元素（ LeetCode 203 ）
 * --21、K 个一组翻转链表（ LeetCode 25 ）
 * --22、回文链表（ LeetCode 234 ）
-* @23、奇偶链表（ LeetCode 328 ）
+* @23、奇偶链表（ LeetCode 328 ） https://leetcode-cn.com/problems/odd-even-linked-list/
 * --24、从尾到头打印链表（ 剑指Offer 06 ）
 * --25、链表中倒数第 k 个节点（ 剑指Offer 22 ）
 
