@@ -16,19 +16,19 @@
 * @12、买卖股票的最佳时机IV（ LeetCode 188 ）
 * @13、最佳买卖股票时机含冷冻期(LeetCode 309)
 * @14、买卖股票的最佳时机含手续费(LeetCode 714)
-* --15、完全平方数（ LeetCode 279 ）
-* @16、三角形最小路径和（ LeetCode 120 ）
-* @17、不同路径（ LeetCode 62 ）
-* @18、不同路径II（ LeetCode 63 ）
-* @19、整数拆分（ LeetCode 343 ）
+* --15、完全平方数（ LeetCode 279 ）https://leetcode-cn.com/problems/perfect-squares/
+* @16、三角形最小路径和（ LeetCode 120 ） https://leetcode-cn.com/problems/triangle/
+* --17、不同路径（ LeetCode 62 ） https://leetcode-cn.com/problems/unique-paths/
+* --18、不同路径II（ LeetCode 63 ）
+* -19、整数拆分（ LeetCode 343 ）
 * @20、不同的二叉搜索树（ LeetCode 96 ）
-* @21、地下城游戏（ LeetCode 174 ）
+* @21、地下城游戏（ LeetCode 174 ） https://leetcode-cn.com/problems/dungeon-game/
 * --22、打家劫舍（ LeetCode 198 ）
 * --23、打家劫舍II（ LeetCode 213 ）
-* @24、打家劫舍III（ LeetCode 337 ）
+* -24、打家劫舍III（ LeetCode 337 ） https://leetcode-cn.com/problems/house-robber-iii/submissions/
 * @25、最长递增子序列（ LeetCode 300 ）
 * @26、最长连续递增序列（ LeetCode 674 ）
-* @27、分割等和子集（ LeetCode 416 ）
+* @27、分割等和子集（ LeetCode 416 ） https://leetcode-cn.com/problems/partition-equal-subset-sum/
 * @28、最长重复子数组（ LeetCode 718 ）
 * @29、最长公共子序列（ LeetCode 1143 ）
 * @30、最长回文子序列（ LeetCode 516 ）
