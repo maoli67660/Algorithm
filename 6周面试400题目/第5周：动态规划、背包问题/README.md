@@ -28,7 +28,7 @@
 * -24、打家劫舍III（ LeetCode 337 ） https://leetcode-cn.com/problems/house-robber-iii/submissions/
 * @25、最长递增子序列（ LeetCode 300 ）
 * @26、最长连续递增序列（ LeetCode 674 ）
-* @27、分割等和子集（ LeetCode 416 ） https://leetcode-cn.com/problems/partition-equal-subset-sum/
+* -27、分割等和子集（ LeetCode 416 ） https://leetcode-cn.com/problems/partition-equal-subset-sum/   DFS各种优化都超时， DP可以参考01背包
 * @28、最长重复子数组（ LeetCode 718 ）
 * @29、最长公共子序列（ LeetCode 1143 ）
 * @30、最长回文子序列（ LeetCode 516 ）
