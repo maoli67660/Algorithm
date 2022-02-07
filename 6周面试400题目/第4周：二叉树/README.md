@@ -26,6 +26,6 @@
 * @23、修剪二叉搜索树（ LeetCode 669 ）https://leetcode-cn.com/problems/trim-a-binary-search-tree/
 * -24、二叉搜索树的最近公共祖先（ LeetCode 235 ） https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-26/
 * -25、二叉搜索树的最小绝对差（ LeetCode 530 ）
-* @26、最大二叉树（ LeetCode 654 ） https://leetcode-cn.com/problems/maximum-binary-tree/
+* --26、最大二叉树（ LeetCode 654 ） https://leetcode-cn.com/problems/maximum-binary-tree/
 
 作者：吴师兄学算法 链接：https://zhuanlan.zhihu.com/p/459500320 来源：知乎 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
