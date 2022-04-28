@@ -56,6 +56,45 @@ class RandomizedSet:
 
 * 剑指 Offer II 031. 最近最少使用缓存 (设计,哈希表,链表,双向链表,中等,通过率 53.9%)
 > 使用 OrderedDict 的 move_to_end(key)方法
+
+```python
+from collections import OrderedDict
+
+class LRUCache:
+
+    def __init__(self, capacity: int):
+        self.od = OrderedDict()
+        self.size = 0
+        self.capacity = capacity
+
+    def get(self, key: int) -> int:
+        if key in self.od:
+            self.od.move_to_end(key)
+            return self.od[key]
+        else:
+            return -1
+
+    def put(self, key: int, value: int) -> None:
+        if key in self.od:
+            self.od[key] = value
+            self.od.move_to_end(key)
+            return 
+
+        if self.size == self.capacity:
+            self.od.popitem(0)
+        else:
+            self.size+=1
+        self.od[key] = value
+
+            
+            
+
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
+```
 * 剑指 Offer II 032. 有效的变位词 (哈希表,字符串,排序,简单,通过率 60.3%)
 ```python
 Counter(s) == Counter(t) and t!=s
