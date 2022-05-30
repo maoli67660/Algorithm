@@ -18,7 +18,7 @@ def maxProfit(prices):
     '''
     diff = np.diff(np.array(prices))
     return int(diff[diff>0].sum())
-
+# 一行过 return sum([max(prices[i]-prices[i-1],0) for i in range(1,len(prices))])
 
 if __name__ == '__main__':
     assert maxProfit([7, 1, 5, 3, 6, 4]) == 7  # 1-5   3-6    利润为7
