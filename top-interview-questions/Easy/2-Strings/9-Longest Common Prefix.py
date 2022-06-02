@@ -11,30 +11,15 @@ https://leetcode-cn.com/problems/longest-common-prefix/
 使用方法二，reduce，在leetcode提交超时
 '''
 from typing import List
-from functools import reduce
 
-
-def longestCommonPrefix_two_str(str1, str2):
-    min_length = min(len(str1), len(str2))
-    for i in range(min_length):
-        if str1[i] != str2[i]:
-            return str1[:i]
-    return str1[:min_length]
-
-
-def longestCommonPrefix_1(strs: List[str]) -> str:
-    if not strs:
-        return ""
-    min_len = min(map(len, strs))
-    for i in range(min_len):  # index for char
-        for j in range(1, len(strs)):  # index for string
-            if strs[j][i] != strs[0][i]:
-                return strs[0][:i]
-    return strs[0][:min_len]
-
-
-def longestCommonPrefix_2(strs: List[str]) -> str:
-    return reduce(longestCommonPrefix_two_str, strs)
+def longestCommonPrefix(self, strs: List[str]) -> str:
+    rst = []
+    for ch in zip(*strs):
+        if len(set(ch))==1:
+            rst.append(ch[0])
+        else:
+            break
+    return ''.join(rst)
 
 
 if __name__ == '__main__':
